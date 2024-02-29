@@ -1,0 +1,112 @@
+body {
+    /*I SET THE WHOLE PAGE TO COLOR ORANGE*/
+    background-color: rgb(255, 115, 0);
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.navbar { /*STYLE OF THE MAIN NAV BAR*/
+    background-color: rgb(41, 40, 40);
+    margin: 1%;
+    position: absolute;
+    top: 2;
+    left: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 40px 50px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar ul li a:hover { /*GIVE THE NAV BARS ORANGE OUTLINE WHEN MOUSE HOVERS*/
+    border: 1px solid rgb(255, 115, 0); 
+    border-radius: 0px;
+}
+
+.navbar ul li:hover .dropdown-content {
+    display: block;
+    background-color: rgb(20, 137, 183);
+    top: 100%;
+    left: auto; 
+    right: 0; 
+}
+/*TUTORIALS DROPDOWN STYLE */
+.dropdown {
+    min-width: 200px;
+    position: center;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; 
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(39, 168, 219);
+    color: white;
+}
+
+.dropdown-content li {
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*WEBDESIGN DROPDOWN STYLE SECTION*/
+.second-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #952777;
+    z-index: 1;
+    top: calc(-1px); 
+    left: 100%;
+    width: 180px;
+}
+
+.second-dropdown a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 25px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.secondDropDown:hover .second-dropdown {
+    display: block;
+    color:  #c32b9a;
+}
+.second-dropdown a:hover {
+    display: block;
+    background-color: #c32b9a;
+}
+
+.Second {
+    padding: 15px;
+    text-align: center;
+}

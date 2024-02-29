@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION BAR</title>
+    <link rel="stylesheet" href="style_simon.css">
+    <!-- Link to Font Awesome CSS stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADWk/UAAAAAAKVf9QAy8PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERESIiERERERESIiIhEiIRERIgIiEiIiERESICIiIiIREREiAiICIRESIiIzICIRESIiIzMyERESIgIhMzIiIRIgAiITICIiESIhEiIiACIREREiIiIiIhEREiIgISIhERESIgIhEREREREiIhERERERERIhERERH//wAA8P8AAOBjAADgQQAA8AEAAPgDAADABwAAgB8AAAIDAAABAQAAjAEAAPgBAADwIwAA8D8AAPh/AAD8/wAA" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <!--MAIN NAVIGATION BAR (HOME, TUTORIALS, ARTICLES, INSPIRATION)-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <!--TUTORIALS HAS A DROPDOWN: PHOTOSHOP, ILLUSTRATOR, WEBDESIGN -->
+            <li class="dropdown">
+                <!--DROP DOWN ARROW IS ADDED-->
+                <a href="#">TUTORIALS <i class="fas fa-caret-down" style="color: yellow;"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Photoshop</a></li>
+                    <li><a href="#">Illustrator</a></li>
+                    <!--THE WEBDEISGN SECTION HAS A DROPDOWN: HTML AND CSS-->
+                    <li class="secondDropDown">
+                        <a class="WebDesign" href="#">Web Design</a>
+                        <div class="second-dropdown">
+                            <div class="Second">
+                                <a href="#">HTML</a>
+                                <a href="#">CSS</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!--CONTINUATION OF THE MAIN NAV BAR-->
+            <li><a href="#">ARTICLES</a></li>
+            <li><a href="#">INSPIRATION</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
